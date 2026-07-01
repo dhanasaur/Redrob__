@@ -1,0 +1,21 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Large data files
+candidates.jsonl
+candidates.jsonl.gz
+
+# Generated local outputs
+submission.csv
+ranker_diagnostics.md
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter / Google Colab checkpoints
+.ipynb_checkpoints/
